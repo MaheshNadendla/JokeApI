@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(to right,red,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JokeMainBox{
+
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 6px;
+}
+
+.JokeMessege{
+    width: 300px;
+    opacity: 0;
+}
+.JokeLogo{
+    font-size: 150px;
+}
+.Submit{
+    height: 35px;
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+}
+.Opacity{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
